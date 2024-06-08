@@ -32,7 +32,33 @@ body {}
 }
 
 .item {
+  padding-bottom: 10px !important;
+  text-align: center;
   cursor: pointer;
   color: #000000A6;
   font-weight: bolder;
+  height: 40px;
+}
+
+.item:hover {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.Options {
+  display: none;
+}
+
+.show {
+  display: inline-block !important;
+}
+
+.itemOption {
+  color: black !important;
+  text-align: start;
+}
+
+.itemOption:hover {
+  border-radius: 10px;
+  background-color: #f8f9fa;
 }
