@@ -8,26 +8,31 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@media (prefers-color-scheme: dark) {}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+body {}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.header {}
+
+.phone {
+  background: linear-gradient(92.5deg, #B7042D 6.07%, #E65F1D 93.93%);
+  color: white;
+  font-weight: bolder;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  cursor: pointer;
+  color: #000000A6;
+  font-weight: bolder;
 }
