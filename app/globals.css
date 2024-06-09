@@ -10,7 +10,9 @@
 
 @media (prefers-color-scheme: dark) {}
 
-body {}
+.body {
+  scroll-behavior: smooth;
+}
 
 @layer utilities {
   .text-balance {

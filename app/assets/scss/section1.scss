@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+}
+
+.Section1 {
+    background-image: url('../imgs/bg1-scaled.jpg');
+    background-size: cover;
+
+    &__btn {
+        cursor: pointer;
+        transition: all 0.3s;
+
+        &:hover {
+            background-color: white;
+            color: black;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+    }
+}
+
+.abc {
+    color: red;
+}

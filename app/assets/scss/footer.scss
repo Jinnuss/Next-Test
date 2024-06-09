@@ -1,0 +1,21 @@
+.Footer {
+    background: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    padding: 30px 100px;
+
+    &__logo {
+        max-width: 90%;
+    }
+
+    &__icon {
+        border-radius: 50%;
+    }
+
+    &__link {
+        text-decoration: none;
+
+        &:hover {
+            color: #db4922;
+        }
+    }
+}

@@ -10,7 +10,7 @@ export default function Header() {
     }
     return (
         <>
-            <div className="header flex justify-between py-[8px] shadow-lg">
+            <div id='header' className="header flex justify-between py-[8px] shadow-lg">
                 <Link href={'/'} className="px-[20px]">
                     <Image className='w-[300px]' src={logo} alt='Ảnh ' />
                 </Link>

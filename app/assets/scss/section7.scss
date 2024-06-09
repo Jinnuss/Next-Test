@@ -1,0 +1,9 @@
+.Section7 {
+    background-size: cover;
+    background-image: url('../imgs/connect-banner.jpg');
+
+    &__btn {
+
+        background: linear-gradient(45deg, #bc0d2c, #e65f1e);
+    }
+}
