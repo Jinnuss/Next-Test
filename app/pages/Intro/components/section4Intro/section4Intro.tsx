@@ -3,7 +3,7 @@ import anh1 from '../../../../assets/imgs/intro-1.png';
 import anh2 from '../../../../assets/imgs/intro-2.jpg';
 import anh3 from '../../../../assets/imgs/intro-3.jpg';
 import Image from 'next/image';
-export default function Section4() {
+export default function Section4Intro() {
     return (
         <>
             <div className="Section4">
