@@ -152,7 +152,8 @@ export default function Section2() {
         <>
             <div className="Section2">
                 <div className="py-[80px] px-[100px]">
-                    <div className="flex justify-between">
+                    <div className="text-center text-[40px] font-bold mb-[30px]">Đội ngũ của chúng tôi</div>
+                    <div className="flex justify-between flex-wrap">
                         {listTagss.map((item, index) => (
                             <>
                                 <div className={item.active ? 'Section2__itemTags active' : 'Section2__itemTags'} onClick={() => handleClick(item)} key={index}>{item.type}</div>
