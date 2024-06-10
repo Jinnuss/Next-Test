@@ -130,7 +130,7 @@ export default function Section2() {
     const [listUser, setListUser] = useState(listEmployees);
     const [tag, setTag] = useState('All');
     const [listTagss, setlistTagss] = useState(listTags);
-    function handleClick(item) {
+    function handleClick(item: any) {
         setTag(item.type);
         listTags.map((itemNew) => {
             if (itemNew.type == item.type) {
