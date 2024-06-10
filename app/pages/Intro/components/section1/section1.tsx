@@ -4,7 +4,7 @@ import './section1Intro.scss';
 export default function Section1() {
     return (
         <>
-            <div className="Section1 mt-[80px]">
+            <div className="Section1 bg-white mt-[80px]">
                 <div className="py-[80px] px-[100px]">
                     <div className="grid lg:grid-cols-2 gap-2">
                         <div>
