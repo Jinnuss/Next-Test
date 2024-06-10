@@ -1,4 +1,4 @@
-import './section4.scss';
+import './section4Intro.scss';
 import anh1 from '../../../../assets/imgs/intro-1.png';
 import anh2 from '../../../../assets/imgs/intro-2.jpg';
 import anh3 from '../../../../assets/imgs/intro-3.jpg';

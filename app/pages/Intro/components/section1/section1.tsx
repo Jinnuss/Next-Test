@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Transform from '../../../../assets/imgs/transforming_story_celebration.svg';
-import './section1.scss';
+import './section1Intro.scss';
 export default function Section1() {
     return (
         <>
