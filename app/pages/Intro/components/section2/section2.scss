@@ -1,0 +1,45 @@
+.Section2 {
+    &__itemTags {
+        width: 140px;
+        text-align: center;
+        font-size: 12px;
+        border: 1px solid #000;
+        padding: 10px;
+        margin-right: 10px;
+        box-shadow: 0px 4px 30px rgba(20, 20, 20, 0.27);
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s;
+
+        &:hover {
+            color: white;
+            border: 1px solid red;
+            background: linear-gradient(92.53deg, #c63449 29.73%, #e7743d 97.09%);
+        }
+    }
+
+    &__ListUser {
+        min-height: 370px;
+        width: 100%;
+        border: 1px solid #000;
+        padding: 20px;
+        box-shadow: 0px 4px 30px rgba(235, 114, 87, 0.27);
+        border-radius: 20px;
+    }
+
+    &__itemUser {
+        height: fit-content;
+        margin-bottom: 20px;
+        display: inline-block;
+        padding: 10px;
+        margin-right: 10px;
+        box-shadow: 0px 4px 30px rgba(12, 11, 11, 0.27);
+        border-radius: 20px;
+    }
+}
+
+.active {
+    color: white;
+    border: 1px solid red;
+    background: linear-gradient(92.53deg, #c63449 29.73%, #e7743d 97.09%);
+}
