@@ -17,7 +17,7 @@ export default function Section4() {
             <div className='Section4 py-[30px] px-[100px]'>
                 <div className='flex justify-center'>
                     <div className='inline-flex justify-center items-center Section4__btn1 px-[20px] mt-[20px] py-[10px] rounded-[20px] inline-block text-[#cb2a27]'>
-                        <div className='w-[25px] h-[25px] rounded-[25px] bg-[#cb2a27] flex justify-center items-center text-white mr-[10px]'><FaMicrophone /></div>
+                        <div className='w-[25px] h-[25px] rounded-[25px] bg-[#cb2a27] inline-flex justify-center items-center text-white mr-[10px]'><FaMicrophone /></div>
                         LĨNH VỰC, NGÀNH NGHỀ
                     </div>
                 </div>
@@ -34,7 +34,7 @@ export default function Section4() {
                     </div>
                     <div className='bg-white text-center Section4__icon sm:col-span-2 md:col-span-1'>
                         <div className='flex justify-center'>
-                            <Image className='w-[95px] h-[95px]' src={icon2} alt='...' />
+                            <Image className='w-[95px] h-[95px] Section4__img' src={icon2} alt='...' />
                         </div>
                         <div className='mt-[10px] font-bold'> Giáo dục - Đào tạo</div>
                     </div>
