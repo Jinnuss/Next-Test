@@ -52,6 +52,7 @@
 }
 
 .show {
+  z-index: 999;
   display: inline-block !important;
 }
 
