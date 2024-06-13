@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Transform from '../../../../assets/imgs/transforming_story_celebration.svg';
 import './section1Intro.scss';
-export default function Section1() {
+export default function Intro1() {
     return (
         <>
-            <div className="Section1 bg-white mt-[80px]">
+            <div className="Section1 bg-[white] mt-[80px]">
                 <div className="py-[80px] px-[100px]">
                     <div className="grid lg:grid-cols-2 gap-2">
                         <div>

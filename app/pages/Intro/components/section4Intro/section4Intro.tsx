@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function Section4Intro() {
     return (
         <>
-            <div className="Section4 bg-white">
+            <div className="Section4 bg-[white]">
                 <div className="py-[20px] px-[100px] mb-[40px]">
                     <div className="text-center text-[40px] font-bold mb-[40px]">Bản tin nổi bật</div>
                     <div className='grid lg:grid-cols-3 gap-3'>

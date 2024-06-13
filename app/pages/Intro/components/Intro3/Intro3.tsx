@@ -1,5 +1,5 @@
 import './section3.scss';
-export default function Section3() {
+export default function Intro3() {
     return (
         <>
             <div className="Section3">

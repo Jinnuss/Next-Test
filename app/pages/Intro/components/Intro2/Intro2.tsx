@@ -2,7 +2,7 @@
 import { useState } from "react";
 import './section2.scss';
 import { IoPersonCircleOutline } from "react-icons/io5";
-export default function Section2() {
+export default function Intro2() {
     const listTags = [
         {
             id: 0,
